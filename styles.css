@@ -1,0 +1,37 @@
+.hidden
+{
+    display: none;
+}
+
+#tooltip
+{
+    position: absolute;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+    pointer-events: none;
+    
+    font-family: sans-serif;
+    font-size: 12px;
+}
+
+button 
+{
+    float: left;
+    margin: 10px;
+}
+
+.down
+{
+    clear: left;
+}
+
+svg
+{
+    float: left;
+}
+
+circle:hover
+{
+    fill: red;
+}
